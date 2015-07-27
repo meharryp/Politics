@@ -1,0 +1,35 @@
+
+Clover EFI installer log - Thu Mar  5 20:50:38 MYT 2015
+Installer version: v2.3k r3185 EFI bootloader
+======================================================
+/dev/disk0
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS Yosemite                499.2 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+/dev/disk1
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *8.1 GB     disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                  Apple_HFS Install OS X Yosemite   7.7 GB     disk1s2
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/Yosemite/EFIROOTDIR/EFI folder to /Volumes/Yosemite/EFI-Backups/r3176/2015-03-05-20h50/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+Removing drivers64UEFI/VBoxHfs-64.efi driver because HFSPlus driver present
+======================================================
+Installing RC Scripts
+
+Installing RC scripts on target volume '/'
+
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
